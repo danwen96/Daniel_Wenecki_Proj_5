@@ -1,0 +1,16 @@
+-Skrypt zainstalujipcmd.sh pobiera i instaluje ipcmd
+
+
+
+Pierwszy przypadek dla c: 
+-Program wyslaniec.out wysyla komunikat do kolejki
+-Skrypt otrzymywaniec.sh odbiera komunikat, ale tylko jezeli jest weekend
+-Skrypt otrzymanieisprawdzeniec.sh odbiera komunikat i sprawdza czy jest to wyraz slownikowy
+-Program odebraniec.c jest skladnikiem skryptu otrzymywaniec.sh
+
+Dla ipcmd
+-Skrypt wyslanieipcmd.sh wysyla podany przez nas komunikat do kolejki
+-Skrypt odebranieipcmd.sh odbiera komunikat z kolejki
+-Skrypt odebranieisprawdzenieipcmd.sh odbiera komunikat i sprawdza, czy jest to wyraz slownikowy
+
+Skrypt sprawdzenie.sh sprawdza czy wyraz na standardowym wejsciu jest slownikowy
